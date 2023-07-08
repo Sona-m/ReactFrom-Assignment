@@ -1,0 +1,157 @@
+body{
+    background-color: #a1f273;
+}
+
+@media print{
+    body{
+      background-color : #a1f273;
+      color : revert;
+  }
+}
+
+.nav{
+    margin-top: 30px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #a1f273;
+    }
+.nav a{
+    margin-right: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    color: #fff;
+    
+}
+
+.active{
+    color:  #fff ;
+    font-size: x-large;
+    font-weight: bold;
+    border-bottom: 5px solid #E9FFC2;
+}
+
+a:link{
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+    
+}
+
+.form{
+    box-shadow: 2px 2px 5px gray;
+    margin: 5%;
+    padding: 5%;
+    background-color: #fff;
+}
+
+.form-heading{
+    text-align: center;
+    color: #a1f273;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5%;
+    font-style: bold;
+    font-weight: 700;
+}
+
+
+
+.form-control {
+    border-color: black;
+    border-style: solid;
+    border-radius: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-width: 1px;
+  }
+
+.form-control:focus {
+        border-color: #a1f273;
+        box-shadow: none;
+}
+
+.form-label{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.next-btn{
+    background-color: #a1f273;
+    color: #fff;
+    border-radius: 30px;
+    border: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    padding: 1% 4%;
+    margin: 2%;
+    cursor: pointer;
+    margin-left: 45%;
+    margin-top: 5%;
+}
+
+.form th{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0px 2px 2px 5px;    
+}
+
+.form tbody{
+    margin : 3%!;
+}
+
+.form-select{
+    border-color: black;
+    border-style: solid;
+    border-radius: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-width: 1px;
+    width: 100%;
+    height: 40px;
+}
+
+.select-date{
+    display : flex;
+    margin : 15px 0px 40px 0px;
+    padding : 5px;
+
+}
+
+.file{
+    border :1px solid black;
+    margin : 30px 0px;
+    padding: 10px;
+}
+
+.profile-header{
+    display :flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4% 3%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border : 2px solid rgb(241, 234, 235) ;
+    border-radius: 10px;
+    background-color: rgb(251, 249, 250);
+    
+}
+
+.education{
+    /* background-color: rgb(251, 249, 250);
+    border : 2px solid rgb(241, 234, 235);
+    border-radius: 10px; */
+    padding: 4% 3%;
+    margin: 2% 0%;
+    text-align: center;
+    
+}

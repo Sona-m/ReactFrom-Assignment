@@ -1,0 +1,121 @@
+{
+  "users": [
+    {
+      "info": {
+        "fname": "sonam",
+        "lname": "kumari",
+        "email": "sonamkri1605@gmail.com",
+        "phoneNo": "6200749488"
+      },
+      "education": {
+        "X": {
+          "year": "2016",
+          "board": "BSEB",
+          "marks": "74"
+        },
+        "XII": {
+          "year": "2018",
+          "board": "BSEB",
+          "marks": "60"
+        },
+        "UG": {
+          "year": "2023",
+          "board": "Visvesvaraya University",
+          "marks": "91"
+        }
+      },
+      "experience": {
+        "currentOrganization": {
+          "name": "Effigo",
+          "fromDate": "Jun 5, 2023"
+        },
+        "previousOrganization": {
+          "name": "Acharya Institute",
+          "fromDate": "Jul 10, 2019",
+          "toDate": "Feb 16, 2023"
+        },
+        "role": "React developer",
+        "resume": ""
+      },
+      "id": 1
+    },
+    {
+      "info": {
+        "fname": "Nihal",
+        "lname": "Khan",
+        "email": "test@gmail.com",
+        "phoneNo": "91111097"
+      },
+      "education": {
+        "X": {
+          "year": "1979",
+          "board": "BSEB",
+          "marks": "90"
+        },
+        "XII": {
+          "year": "1982",
+          "board": "CBSE",
+          "marks": "979"
+        },
+        "UG": {
+          "year": "1986",
+          "board": "Acharya",
+          "marks": "89"
+        }
+      },
+      "experience": {
+        "currentOrganization": {
+          "name": "Effigo",
+          "fromDate": "Jan 3, 2023"
+        },
+        "previousOrganization": {
+          "name": "TCS",
+          "fromDate": "Jul 15, 2021",
+          "toDate": "Aug 18, 2022"
+        },
+        "role": "React developer",
+        "resume": "css.txt"
+      },
+      "id": 2
+    },
+    {
+      "info": {
+        "fname": "Akash",
+        "lname": "raj",
+        "email": "akashraj23@gmail.com",
+        "phoneNo": "7689999922"
+      },
+      "education": {
+        "X": {
+          "year": "1978",
+          "board": "CBSE",
+          "marks": "78"
+        },
+        "XII": {
+          "year": "1981",
+          "board": "CBSE",
+          "marks": "79"
+        },
+        "UG": {
+          "year": "1983",
+          "board": "KIIT",
+          "marks": "90"
+        }
+      },
+      "experience": {
+        "currentOrganization": {
+          "name": "Google",
+          "fromDate": "Jul 12, 2023"
+        },
+        "previousOrganization": {
+          "name": "KIIT",
+          "fromDate": "Jan 19, 2023",
+          "toDate": "Apr 21, 2023"
+        },
+        "role": "Software Developer",
+        "resume": "topics.txt"
+      },
+      "id": 3
+    }
+  ]
+}
