@@ -7,6 +7,8 @@ import { useEffect, useState } from "react";
 import Input from "./Input";
 import { useDispatch } from "react-redux";
 import { addInfo } from "../redux/store";
+import { navigate } from "../redux/store";
+
 import {
   validateName,
   validateEmail,
@@ -17,6 +19,8 @@ function PersonalInfo() {
   const [isFormValid, setFormValid] = useState(false);
 
   const dispatch = useDispatch();
+
+  
   const [info, setInfo] = useState({
     fname: "",
     lname: "",
@@ -34,6 +38,9 @@ function PersonalInfo() {
   const handleClick = () => {
     if (validateForm()) {
       dispatch(addInfo(info));
+    }
+    if(isFormValid){
+      dispatch(navigate("/edu"));
     }
   };
 
@@ -108,6 +115,10 @@ function PersonalInfo() {
     return isValid;
   };
 
+  
+
+  
+
   return (
     <Container className="form">
       <p className="form-heading">Enter your details below.</p>
@@ -157,6 +168,7 @@ function PersonalInfo() {
       <Link to={isFormValid ? "/edu" : "/info"}>
         <ButtonComponent text="Next" onClick={handleClick} />
       </Link>
+      
     </Container>
   );
 }

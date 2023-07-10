@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 const PreviewForm = () => {
   const { info, education, experience } = useSelector((state) => state.user);
   const {
-    currentOrganization: curOrg,
+    currentOrganization,
     previousOrganization: prvOrg,
     role,
   } = experience;
@@ -56,17 +56,17 @@ const PreviewForm = () => {
 
         <div className="form-heading">Experience</div>
         <div>
-          <h4>{role}</h4>
+          <h4>Role : {role}</h4>
           <p>
-            {curOrg.name} {curOrg.fromDate}
+            Company details : {currentOrganization.name} started from {currentOrganization.fromDate}
           </p>
           <p>
-            {prvOrg.name} {prvOrg.fromDate} {prvOrg.toDate}
+            Prev Company details : {prvOrg.name} From date : {prvOrg.fromDate} To date : {prvOrg.toDate}
           </p>
         </div>
       </div>
       <Link to="/">
-        <ButtonComponent text="Submit" onClick={handleSubmit} />
+        <button className="submit-btn" onClick={handleSubmit}>Submit</button>
       </Link>
     </>
   );

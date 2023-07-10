@@ -116,6 +116,123 @@
         "resume": "topics.txt"
       },
       "id": 3
+    },
+    {
+      "info": {
+        "fname": "naha",
+        "lname": "sinha",
+        "email": "neha123@gmail.com",
+        "phoneNo": "7888888889"
+      },
+      "education": {
+        "X": {
+          "year": "1979",
+          "board": "BSEB",
+          "marks": "99"
+        },
+        "XII": {
+          "year": "1981",
+          "board": "BSEB",
+          "marks": "79"
+        },
+        "UG": {
+          "year": "1985",
+          "board": "NIT8",
+          "marks": "89"
+        }
+      },
+      "experience": {
+        "currentOrganization": {
+          "name": "cocubes",
+          "fromDate": "Jul 20, 2023"
+        },
+        "previousOrganization": {
+          "name": "acco",
+          "fromDate": "Sep 8, 2022",
+          "toDate": "Mar 16, 2023"
+        },
+        "role": "developer",
+        "resume": "topics.txt"
+      },
+      "id": 4
+    },
+    {
+      "info": {
+        "fname": "sonam",
+        "lname": "kumari",
+        "email": "sonamkumari@gmail.com",
+        "phoneNo": "9876543210"
+      },
+      "education": {
+        "X": {
+          "year": "1985",
+          "board": "BSEB",
+          "marks": "98"
+        },
+        "XII": {
+          "year": "1982",
+          "board": "BSEB",
+          "marks": "90"
+        },
+        "UG": {
+          "year": "1988",
+          "board": "BSEB",
+          "marks": "87"
+        }
+      },
+      "experience": {
+        "currentOrganization": {
+          "name": "amoxon",
+          "fromDate": "Jul 21, 2023"
+        },
+        "previousOrganization": {
+          "name": "google",
+          "fromDate": "Jan 11, 2023",
+          "toDate": "Jul 20, 2023"
+        },
+        "role": "Software Developer",
+        "resume": "topics.txt"
+      },
+      "id": 5
+    },
+    {
+      "info": {
+        "fname": "sonam",
+        "lname": "kumari",
+        "email": "s@gmail.com",
+        "phoneNo": "9876543210"
+      },
+      "education": {
+        "X": {
+          "year": "1978",
+          "board": "jjjj",
+          "marks": "98"
+        },
+        "XII": {
+          "year": "1980",
+          "board": "kkkk",
+          "marks": "90"
+        },
+        "UG": {
+          "year": "1984",
+          "board": "ooooo",
+          "marks": "78"
+        }
+      },
+      "experience": {
+        "currentOrganization": {
+          "name": "aaaa",
+          "fromDate": "Jul 21, 2023"
+        },
+        "previousOrganization": {
+          "name": "aaaaa",
+          "fromDate": "Mar 7, 2023",
+          "toDate": "Jun 27, 2023"
+        },
+        "role": "developer",
+        "resume": "topics.txt"
+      },
+      "id": 6
     }
   ]
 }

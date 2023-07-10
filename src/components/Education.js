@@ -5,7 +5,7 @@ import ButtonComponent from "./ButtonComponent";
 import TableBody from "./TableBody";
 import { useDispatch } from "react-redux";
 import { addEdu } from "../redux/store";
-
+import { navigate } from "../redux/store";
 const Education = () => {
   const dispatch = useDispatch();
   const [edu, setEdu] = useState({
@@ -14,10 +14,14 @@ const Education = () => {
     UG: {},
   });
 
+  
+
   const handleSave = () => {
     if (isFormFilled()) {
-      console.log("saving edu details");
       dispatch(addEdu(edu));
+    }
+    if (isFormFilled()) {
+      dispatch(navigate("/exp"));
     }
   };
 
@@ -34,6 +38,8 @@ const Education = () => {
       edu.UG.marks
     );
   };
+
+  
 
   return (
     <div className="form">
